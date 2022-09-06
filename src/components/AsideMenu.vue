@@ -23,7 +23,7 @@ const layoutStore = useLayoutStore();
   <AsideMenuLayer
     :menu="menu"
     :class="[
-      layoutStore.isAsideMobileExpanded ? 'left-0' : '-left-60 lg:left-0',
+      layoutStore.isAsideMobileExpanded ? 'left-0' : '-left-60 lg:right-0',
       { 'lg:hidden xl:flex': !layoutStore.isAsideLgActive },
     ]"
     @menu-click="menuClick"
