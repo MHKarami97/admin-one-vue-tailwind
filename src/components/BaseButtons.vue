@@ -11,7 +11,7 @@ export default defineComponent({
     },
     classAddon: {
       type: String,
-      default: "mr-3 last:mr-0 mb-3",
+      default: "ml-3 last:mr-0 mb-3",
     },
     mb: {
       type: String,
